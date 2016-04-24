@@ -1,0 +1,17 @@
+apply plugin: 'java'
+apply plugin: 'com.novoda.bintray-release'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.squareup.retrofit2:retrofit:2.0.2'
+    compile 'com.alibaba:fastjson:1.2.10'
+}
+
+publish {
+    userOrg = 'baronz88'//bintray.com用户名
+    groupId = 'me.baron.retrofit2.converter'//jcenter上的路径
+    artifactId = 'Retrofit2-FastJson-Converter'//项目名称
+    publishVersion = '1.0.0'//版本号
+    desc = '为Retrofit2提供的FastJsonConverter，弥补了官方缺少对FastJson支持的问题。'//描述，不重要
+    website = 'https://github.com/BaronZ88/Retrofit2-FastJson-Converter'
+}

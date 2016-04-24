@@ -1,0 +1,2 @@
+# Retrofit2-FastJson-Converter
+为Retrofit2提供的FastJson解析器(FastJsonConverter)，弥补了官方缺少对FastJson支持的问题。

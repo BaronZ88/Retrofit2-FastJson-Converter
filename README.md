@@ -2,7 +2,7 @@
 
 > 为 Retrofit2 提供的 FastJson 解析器（FastJsonConverter），弥补了官方缺少对 FastJson 支持的问题。
 
-## 添加依赖
+## 添加依赖  
 
 ### Gradle 依赖方式:
 

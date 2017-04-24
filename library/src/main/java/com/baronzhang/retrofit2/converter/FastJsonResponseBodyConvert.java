@@ -1,4 +1,4 @@
-package me.baron.retrofit2.converter;
+package com.baronzhang.retrofit2.converter;
 
 import com.alibaba.fastjson.JSON;
 

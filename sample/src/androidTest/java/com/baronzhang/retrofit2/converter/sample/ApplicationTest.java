@@ -1,4 +1,4 @@
-package me.baron.retrofit2.converter.sample;
+package com.baronzhang.retrofit2.converter.sample;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

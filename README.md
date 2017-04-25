@@ -2,9 +2,11 @@
 
 > 为 Retrofit2 提供的 FastJson 解析器（FastJsonConverter），弥补了官方缺少对 FastJson 支持的问题。
 
-## 添加依赖  
+## 何如使用
 
-### Gradle 依赖方式:
+### 一、添加依赖  
+
+**Gradle 方式依赖:**
 
 Step 1. Add the JitPack repository to your build file
 
@@ -26,7 +28,7 @@ dependencies {
 ```
 	
 
-### Maven 依赖方式:
+**Maven 方式依赖:**
 
 Step 1. Add the JitPack repository to your build file
 
@@ -48,4 +50,19 @@ Step 2. Add the dependency
 	<version>1.2</version>
 </dependency>
 ```
+
+### 二、使用
+
+在 Retrofit.Builder 的 addConverterFactory 方法中传入 `FastJsonConverterFactory.create()` 即可。如下：
+
+```java
+Retrofit retrofit = new Retrofit.Builder()
+      .baseUrl(baseUrl)
+      .addConverterFactory(FastJsonConverterFactory.create())
+      .client(client)
+      .build();
+```
+
+
+
 

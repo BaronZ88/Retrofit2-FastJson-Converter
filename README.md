@@ -8,36 +8,44 @@
 
 Step 1. Add the JitPack repository to your build file
 
-	allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+```groovy
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
+```
 	
 Step 2. Add the dependency
 
-	dependencies {
-	        compile 'com.github.BaronZ88:Retrofit2-FastJson-Converter:1.2'
-	}
+```groovy
+dependencies {
+	compile 'com.github.BaronZ88:Retrofit2-FastJson-Converter:1.2'
+}
+```
 	
 
 ### Maven 依赖方式:
 
 Step 1. Add the JitPack repository to your build file
 
-	<repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+```xml
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
+```
     
 Step 2. Add the dependency
 
-	<dependency>
-	    <groupId>com.github.BaronZ88</groupId>
-	    <artifactId>Retrofit2-FastJson-Converter</artifactId>
-	    <version>1.2</version>
-	</dependency>
+```xml
+<dependency>
+	<groupId>com.github.BaronZ88</groupId>
+	<artifactId>Retrofit2-FastJson-Converter</artifactId>
+	<version>1.2</version>
+</dependency>
+```
 

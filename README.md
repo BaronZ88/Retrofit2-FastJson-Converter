@@ -2,8 +2,6 @@
 
 > 为 Retrofit2 提供的 FastJson 解析器（FastJsonConverter），弥补了官方缺少对 FastJson 支持的问题。
 
-[![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-
 ### 何如使用
 
 #### 一、添加依赖  
@@ -64,7 +62,7 @@ Retrofit retrofit = new Retrofit.Builder()
       .client(client)
       .build();
 ```
-### 开源许可
+### 开源许可 [![Hex.pm](https://img.shields.io/hexpm/l/plug.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ```
 Copyright 2017 Baron Zhang
